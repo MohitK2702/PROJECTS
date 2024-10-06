@@ -1,3 +1,7 @@
+Note : Install all the modules before running code ,also some modules does not support latest Python3 (3.12.x) use Python3 (3.9.x or below ) to run.
+
+
+
 Function Layout
 -- the_advanced_keylogger.py --
 smtp_handler: Facilitates sending emails with encrypted data.
