@@ -1,0 +1,19 @@
+Function Layout
+-- the_advanced_keylogger.py --
+smtp_handler: Facilitates sending emails with encrypted data.
+email_attach: Creates an email attachment object and returns it.
+email_header: Formats the email header and body.
+send_mail: Sends emails in segments based on regex matches.
+encrypt_data: Encrypts file data to be exfiltrated.
+RegObject: Contains compiled regex expressions for data handling.
+webcam: Captures webcam pictures every 5 seconds.
+microphone: Records microphone input in 60-second intervals.
+screenshot: Captures screenshots every 5 seconds.
+log_keys: Detects and logs keystrokes.
+get_browser_history: Retrieves browser username, database paths, and browsing history.
+get_clipboard: Captures clipboard contents and logs them.
+get_system_info: Gathers system and hardware information.
+linux_wifi_query: Runs commands to query Wi-Fi SSIDs and passwords.
+get_network_info: Collects network information (e.g., profiles, passwords, IPs, ports) and attempts to query public IP using the ipify.org API.
+main: Manages network information gathering, clipboard logging, browser history retrieval, multiprocessing, encrypted data sending, and data cleanup.
+print_err: Outputs error messages to stderr.
